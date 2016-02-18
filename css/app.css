@@ -32,6 +32,10 @@ h1, h2 {
 	line-height: 1;
 }
 
+#about {
+	min-height: 90vh;
+}
+
 p.about {
 	text-shadow: 1px 1px 0px rgba(255, 255, 255, 100);
 }
@@ -64,7 +68,7 @@ p.about {
 #finalbox { 
 	width: 100%; 
 	min-height: 90vh; 
-	background-image: url(https://s3-us-west-1.amazonaws.com/ggtech/wave3.png);
+	background-image: url(/img/wave3.png);
 	background-position: 0px 0px;
 	
 	padding: 0;
