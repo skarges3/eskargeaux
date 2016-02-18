@@ -1,4 +1,4 @@
-h1 {
+h1, h2 {
 	font-size: 34px;
 }
 
@@ -86,6 +86,16 @@ p.about {
 	#finalbox {
 		margin-top: 0;
 	}
+	
+	.project h1 {
+	top: -65px;
+	font-size: 26px;
+}
+
+	.project h2 {
+	top: -10px;
+	font-size: 26px;
+}
 
 }
 
