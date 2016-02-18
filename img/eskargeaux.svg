@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="291px" height="193px" viewBox="0 0 291 193" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="6" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.7 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="6" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.7 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="iPhone-6-Plus" sketch:type="MSArtboardGroup" transform="translate(-65.000000, -237.000000)">
+            <g id="Group-2" sketch:type="MSLayerGroup" transform="translate(64.000000, 237.000000)">
+                <path d="M191.355876,56.8017596 C191.355876,24.5342576 169.947165,0 139.491772,0 C114.305693,0 97,18.0404377 97,43.6548355 C97,64.3365364 113.76625,81.1027868 134.447951,81.1027868 C151.359834,81.1027868 165.069881,67.3930088 165.069881,50.4812449 C165.069881,36.5853709 153.805047,25.3206754 139.909312,25.3206754 C128.426283,25.3206754 119.117598,34.6293604 119.117598,46.1123894 C119.117598,55.6647323 126.861574,63.4087087 136.413917,63.4087087 C144.422409,63.4087087 150.914619,56.9166545 150.914619,48.9083949 C150.914619,42.0387057 147.214406,37.7500834 140.493261,37.7500834 C134.710579,37.7500834 131.124517,42.6329433 131.124517,48.5927348 L137.757101,48.5927348 C137.757101,45.9312266 138.894391,44.3826671 140.493261,44.3826671 C143.316066,44.3826671 144.282035,45.5022452 144.282035,48.9083949 C144.282035,53.2535441 140.759369,56.776125 136.413917,56.776125 C130.524649,56.776125 125.750181,52.0016575 125.750181,46.1123894 C125.750181,38.2924353 132.089357,31.9532592 139.909312,31.9532592 C150.141991,31.9532592 158.437297,40.248464 158.437297,50.4812449 C158.437297,63.7299049 147.696788,74.4702031 134.447951,74.4702031 C117.429325,74.4702031 103.632584,60.6734616 103.632584,43.6548355 C103.632584,21.6432337 118.031885,6.63258373 139.491772,6.63258373 C166.067873,6.63258373 184.723292,28.0115852 184.723292,56.8017596 L191.355876,56.8017596 L191.355876,56.8017596 Z" id="Shape-Copy" fill="#321DD3" filter="url(#filter-1)" sketch:type="MSShapeGroup"></path>
+                <text id="eskargeaux-copy" fill="white" filter="url(#filter-2)" sketch:type="MSTextLayer" font-family="Neuzeit Grotesk" font-size="57" font-weight="bold" sketch:alignment="middle" letter-spacing="-0.729225159">
+                    <tspan x="0.441125793" y="174" fill="#321DD3">eskargeaux</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

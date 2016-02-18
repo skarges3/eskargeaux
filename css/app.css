@@ -1,0 +1,130 @@
+h1 {
+	font-size: 34px;
+}
+
+#logo {
+	width: 400px;
+}
+
+#mymenu {
+	min-height: 6vh;
+	padding-top: 7px;
+}
+
+.neuz {
+	font-family: Neuzeit Grotesk, "Neuzeit Grotesk", Futura, sans-serif;
+	font-weight: bold;
+}
+
+.project {
+	margin-top: 125px;
+}
+
+.project h1 {
+	position: absolute;
+	top: -82px;
+	line-height: 1;
+}
+
+.project h2 {
+	position: absolute;
+	top: -18px;
+	line-height: 1;
+}
+
+p.about {
+	text-shadow: 1px 1px 0px rgba(255, 255, 255, 100);
+}
+
+.project a {
+	text-decoration: underline;
+}
+
+@keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	100% { background-position: -967px 0; }
+}
+@-moz-keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	100% { background-position: -967px 0; }
+}
+@-webkit-keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	100% { background-position: -967px 0; }
+}
+@-ms-keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	100% { background-position: -967px 0; }
+}
+@-o-keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	100% { background-position: -967px 0; }
+}
+
+#finalbox { 
+	width: 100%; 
+	min-height: 90vh; 
+	background-image: url(https://s3-us-west-1.amazonaws.com/ggtech/wave3.png);
+	background-position: 0px 0px;
+	
+	padding: 0;
+	margin: 0;
+
+	animation: animatedBackground 3s linear infinite;
+	-moz-animation: animatedBackground 3s linear infinite;
+	-webkit-animation: animatedBackground 3s linear infinite;
+	-ms-animation: animatedBackground 3s linear infinite;
+	-o-animation: animatedBackground 3s linear infinite;
+}
+
+@media screen and (max-width: 39.9375em) {
+
+	#logo {
+	width: 400px;
+	}
+	
+	#finalbox {
+		margin-top: 0;
+	}
+
+}
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
+.rotating {
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}

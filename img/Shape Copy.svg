@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="101px" height="87px" viewBox="0 0 101 87" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="6" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.7 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="iPhone-6-Plus" sketch:type="MSArtboardGroup" transform="translate(-161.000000, -237.000000)" filter="url(#filter-1)" fill="#321DD3">
+            <path d="M255.355876,293.80176 C255.355876,261.534258 233.947165,237 203.491772,237 C178.305693,237 161,255.040438 161,280.654835 C161,301.336536 177.76625,318.102787 198.447951,318.102787 C215.359834,318.102787 229.069881,304.393009 229.069881,287.481245 C229.069881,273.585371 217.805047,262.320675 203.909312,262.320675 C192.426283,262.320675 183.117598,271.62936 183.117598,283.112389 C183.117598,292.664732 190.861574,300.408709 200.413917,300.408709 C208.422409,300.408709 214.914619,293.916654 214.914619,285.908395 C214.914619,279.038706 211.214406,274.750083 204.493261,274.750083 C198.710579,274.750083 195.124517,279.632943 195.124517,285.592735 L201.757101,285.592735 C201.757101,282.931227 202.894391,281.382667 204.493261,281.382667 C207.316066,281.382667 208.282035,282.502245 208.282035,285.908395 C208.282035,290.253544 204.759369,293.776125 200.413917,293.776125 C194.524649,293.776125 189.750181,289.001657 189.750181,283.112389 C189.750181,275.292435 196.089357,268.953259 203.909312,268.953259 C214.141991,268.953259 222.437297,277.248464 222.437297,287.481245 C222.437297,300.729905 211.696788,311.470203 198.447951,311.470203 C181.429325,311.470203 167.632584,297.673462 167.632584,280.654835 C167.632584,258.643234 182.031885,243.632584 203.491772,243.632584 C230.067873,243.632584 248.723292,265.011585 248.723292,293.80176 L255.355876,293.80176 L255.355876,293.80176 Z" id="Shape-Copy" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
