@@ -91,6 +91,10 @@ p.about {
 		margin-top: 0;
 	}
 	
+	#about {
+	min-height: 9vh;
+	}
+	
 	.project h1 {
 	top: -65px;
 	font-size: 26px;
