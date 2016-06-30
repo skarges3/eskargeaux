@@ -27,7 +27,17 @@
         <div class="primary callout large text-center">
 					<img src="img/eskargeaux.svg" id="logo">
 					
-					<p class="lead" style="margin-top: 100px">Spencer Karges, <em>Designers</em></p>
+					<p class="lead" style="margin-top: 100px">Spencer Karges, <em>Designer</em></p>
+												<div class="cust-title"></div>
+							<script>
+			addEvent(window, 'load', function() {
+					var params = document.location.search.toQueryParams(),
+							custTitle = jQuery('.cust-title');
+					if (params['cust-title'] !== undefined && custTitle.length) {
+							custTitle.text(decodeURIComponent(params['cust-title'].replace(/\+/g, "%20"))).css('display', '');
+					}
+			});
+						</script>
         </div>
       </div>
     </div>
